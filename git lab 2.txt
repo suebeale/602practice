@@ -1,0 +1,56 @@
+Git Lab
+
+common commands using a command line editor 
+> Mac - terminal
+> PC - Git Bash or command prompt
+
+
+setup your Git configuration
+git config --global
+
+add your name and email
+git config --global user.name "your name" 
+eg git config --global user.name "Sue Beale"
+
+git config --global user.email "your email"
+eg git config --global user.email "sue.beale@wintec.ac.nz"
+
+to view all Git configurations 
+git config --list 
+
+to view one Git configuration
+git user.name
+
+to view contents of a directory
+ls -la
+
+to view the git configurations 
+.gitconfig file
+cat .gitconfig 
+
+set an editor for Git
+git config --global core.editor "notepad++ --wait"
+
+set a global colour coding for Git commands 
+git config --global color.ui true 
+
+view updated list of config settings 
+git config --list 
+
+
+
+
+Learning GIT commands 
+use the help command when you get stuck 
+git help
+
+create a folder somewhere on your computer
+initialise the folder for Git 
+
+add this file in your folder for learning git commands 
+
+using the Git command editor do the following -
+1) move to the current directory, eg cd 
+2) list the content of the directory, eg ls
+
+
